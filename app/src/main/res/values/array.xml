@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+     <string-array name="class12_accountancy_accountacy1_chapters">
+         <item> Accountancy- 1 Prelims </item>
+         <item> Unit-1 Accounting for Non-profit Organisation </item>
+         <item> Unit-2 Accounting for Partnership </item>
+         <item> Unit-3 Reconstitution of Partnership Firm - Admission of Partner </item>
+         <item> Unit-4 Reconstitution of Partnership Firm - Retirement of Partner </item>
+         <item> Unit-5 Dessolution of Partnership Firm </item>
+     </string-array>
+     <string-array name="class12_accountancy_accountacy2_chapters">
+         <item> Accountancy - 2 - Prelims </item>
+         <item> Unit-1 Accounting for Share Capital </item>
+         <item> Unit-2 Issue and Redemption of Debentures </item>
+         <item> Unit-3 Financial Statement of Company Learning Objective </item>
+         <item> Unit-4 Analysis of Financial Statement </item>
+         <item> Unit-5 Accounting Ratios </item>
+         <item> Unit-6 Cash Flow Statement </item>
+     </string-array>
+
+     <string-array name="class12_accountancy_books">
+         <item> Accountacy 1 </item>
+         <item> Accountacy 2 </item>
+     </string-array>
+
+    <string-array name="class12_accountancy_books_hi">
+        <item> Lekhashastra 1 </item>
+        <item> Lekhashastra 2 </item>
+    </string-array>
+
+    <string-array name="class12_accountancy_lekhashastra1_chapters">
+         <item> Lekhashastra 1 - Prelims </item>
+         <item> Unit-1 Alabhkari Sansthao Ke Liye Lekhankan </item>
+         <item> Unit-2 Sazedari Lekhankan Aadharbhut Aawdharnae </item>
+         <item> Unit-3 Sszedari Firm Ka Punargathan - Sazedhar Ka Prawesh </item>
+         <item> Unit-4 Sazedari Firm Ka Punargathan - Sazedhar Ki Sewaniwrutti </item>
+         <item> Unit-5 Sazedari Firm Ka Wighatan </item>
+     </string-array>
+     <string-array name="class12_accountancy_lekhashastra2_chapters">
+         <item> Lekhashastra 2 - Prelims </item>
+         <item> Unit-1 Aanshpuji Ke Liye Lekhankan </item>
+         <item> Unit-2 Runpatroka Niyam Evam Mochan </item>
+         <item> Unit-3 Campanike Liye Wittiya Wiwaran </item>
+         <item> Unit-4 Wittiya Wiwarano Ka Wishleshan </item>
+         <item> Unit-5 Lekhankan Aanupat </item>
+         <item> Unit-6 Rokad Prawah Wiwran </item>
+     </string-array>
+     <string-array name="class12_biology_biology_chapters">
+         <item> Biology - Prelims </item>
+         <item> Unit-1 Reproduction in Organisms </item>
+         <item> Unit-2 Sexual Reproduction in Flowering Plants </item>
+         <item> Unit-3 Human Reproduction </item>
+         <item> Unit-4 Reproductive Health </item>
+         <item> Unit-5 Principles of Inheritance and Variation </item>
+         <item> Unit-6 Molecular Basis of Inheritance </item>
+         <item> Unit-7 Evolution </item>
+         <item> Unit-8 Human Health and Desease </item>
+         <item> Unit-9 Strategies for Enhancment in Food Production </item>
+         <item> Unit-10 Microbes in Human Welfare </item>
+         <item> Unit-11 Biotechnology: Principles and Processes </item>
+         <item> Unit-12 Biotechnology and Its Application </item>
+         <item> Unit-13 Organisms and Population </item>
+         <item> Unit-14 Ecosystem </item>
+         <item> Unit-15 Biodiversity and Conservations </item>
+         <item> Unit-16 Environmental Issues </item>
+     </string-array>
+
+     <string-array name="class12_biology_books">
+         <item> Biology </item>
+     </string-array>
+
+    <string-array name="class12_biology_books_hi">
+        <item> Jeev Vigyan </item>
+    </string-array>
+
+     <string-array name="class12_biology_jeevvigyan_chapters">
+         <item> Jeev Vigyan - Prelims </item>
+         <item> Unit-1 Jiwo Me Janan </item>
+         <item> Unit-2 Pushpi Padapo Me Laingik Prajanan </item>
+         <item> Unit-3 Manaw Janan </item>
+         <item> Unit-4 Janan Swasthya </item>
+         <item> Unit-5 Aanuwanshiki Tatha Wikas </item>
+         <item> Unit-6 Wanshagati Ka Aanwik Aadhar </item>
+         <item> Unit-7 Vikas </item>
+         <item> Unit-8 Manaw Swasthya Atha Rog </item>
+         <item> Unit-9 Khadya Utpadan Me Wruddhi Ki Karyniti </item>
+         <item> Unit-10 Manaw Kalyan Me Sukshma Jiw </item>
+         <item> Unit-11 Jaiw Praudhyogiki-sidhannt Wa Prakram </item>
+         <item> Unit-12 Jaiw Praudhyoggiki Evm Uske Upyog </item>
+         <item> Unit-13 Jeew Aur Samashtiya </item>
+         <item> Unit-14 Paritantra </item>
+         <item> Unit-15 Jiw Vividhta Evam Sanrakshan </item>
+         <item> Unit-16 Paryawaran Ke Mudde </item>
+     </string-array>
+     <string-array name="class12_busisnessstudies_vyawsayaadhyayan2_chapters">
+         <item> Vyawsay Aadhyayan 2 - Prelims </item>
+         <item> Unit-10 Vitiy Bazar </item>
+         <item> Unit-11 Vipnanan </item>
+         <item> Unit-12 Upbhokta Sarakshan </item>
+         <item> Unit-13 Udyamita Ka Vikas </item>
+     </string-array>
+     <string-array name="class12_businessstudies_books">
+         <item> Business Studies 1 </item>
+         <item> Business Studies 2 </item>
+     </string-array>
+
+    <string-array name="class12_businessstudies_books_hi">
+        <item> Vyawsay Aadhyayan 1 </item>
+        <item> Vyawsay Aadhyayan 2 </item>
+    </string-array>
+     <string-array name="class12_businessstudies_businessstudies1_chapters">
+         <item> Business Studies 1 - Prelims </item>
+         <item> Unit-1 Nature and Significance of Managenent </item>
+         <item> Unit-2 Principles of Management </item>
+         <item> Unit-3 Business Environment </item>
+         <item> Unit-4 Planning </item>
+         <item> Unit-5 Organising </item>
+         <item> Unit-6 Staffing </item>
+         <item> Unit-7 Directing </item>
+         <item> Unit-8 Controlling </item>
+     </string-array>
+     <string-array name="class12_businessstudies_businessstudies2_chapters">
+         <item> Business Studies 2 - Prelims </item>
+         <item> Unit-9 Financial Management </item>
+         <item> Unit-10 Financial Market </item>
+         <item> Unit-11 Marketing </item>
+         <item> Unit-12 Consumer Protection </item>
+         <item> Unit-13 Entrepreneurship Development </item>
+         <item>  </item>
+     </string-array>
+     <string-array name="class12_businessstudies_vyawsayaadhyayan1_chapters">
+         <item> Vyawsay Aadhyayan 1 - Prelims </item>
+         <item> Unit-1 Prabandha Ki Prakruti Evam Mahatwa </item>
+         <item> Unit-2 Prabandha Ke Siddhant </item>
+         <item> Unit-3 Wyawsaik Paryawaran </item>
+         <item> Unit-4 Niyogen </item>
+         <item> Unit-5 Sangathan </item>
+         <item> Unit-6 Niyuktikaran </item>
+         <item> Unit-7 Nirdeshan </item>
+         <item> Unit-8 Niyantran </item>
+     </string-array>
+     <string-array name="class12_chemistry_books">
+         <item> Chemistry 1 </item>
+         <item> Chemistry 2 </item>
+     </string-array>
+
+
+    <string-array name="class12_chemistry_books_hi">
+        <item> Rasayan Vigyan 1 </item>
+        <item> Rasayan Vigyan 2 </item>
+    </string-array>
+     <string-array name="class12_chemistry_chemistry2_chapters">
+         <item> Chemistry 2 - Prelims </item>
+         <item> Unit-1 Haloalkanes and Haloarens </item>
+         <item> Unit-2 Alcohol, Phenols and Ethers </item>
+         <item> Unit-3 Aldehydes, Ketons and Carbozylic Acids </item>
+         <item> Unit-4 Amins </item>
+         <item> Unit-5 Biomolecules </item>
+         <item> Unit-6 Polymers </item>
+         <item> Unit-7 Chemistry in Everyday Life </item>
+         <item> Unit-8 Answers </item>
+     </string-array>
+     <string-array name="class12_chemistry_chemisty1_chapters">
+         <item> Chemistry 1 - Prelims </item>
+         <item> Unit-1 the Solid State </item>
+         <item> Unit-2 Solutions </item>
+         <item> Unit-3 Electro Chemistry </item>
+         <item> Unit-4 Chemical Kinetics </item>
+         <item> Unit-5 Surface Chemistry </item>
+         <item> Unit-6 General Principles and Process of Isolation of Element </item>
+         <item> Unit-7 the P-block Element </item>
+         <item> Unit-8 the D and F-block Element </item>
+         <item> Unit-9 Coordination Compound </item>
+         <item> Unit-10 Answer Sheet </item>
+         <item> Unit-11 Appendix </item>
+     </string-array>
+     <string-array name="class12_chemistry_rasayanvigyan1_chapters">
+         <item> Unit-1 Thos Aawastha </item>
+         <item> Unit-2 Vilayan </item>
+         <item> Unit-3 Widyut Rasayan </item>
+         <item> Unit-4 Rasaynik Balgatiki </item>
+         <item> Unit-5 Prushth Rasayan </item>
+         <item> Unit-6 Tatwo Ke Nishkarshan Ke Siddhant Evam Prakaran </item>
+         <item> Unit-7 P-block Tatwa </item>
+         <item> Unit-8 D Evam F-block Tatwa </item>
+         <item> Unit-9 Upsahasanyogan Yogic </item>
+     </string-array>
+     <string-array name="class12_chemistry_rasayanvigyan2_chapters">
+         <item> Rasayan Vigyan 2 - Prelims </item>
+         <item> Unit-1 Heloalken Ttha Heloarin </item>
+         <item> Unit-2 Alkohol Phenol Avam Ethar </item>
+         <item> Unit-3 Aldehayed Kiton Avam Carboxylic Acid </item>
+         <item> Unit-4 Emin </item>
+         <item> Unit-5 Jeev-anu </item>
+         <item> Unit-6 Bahulak </item>
+         <item> Unit-7 Denik Jeevan Me Rsayan </item>
+     </string-array>
+     <string-array name="class12_economic_books">
+         <item> Introductory Microconomics </item>
+         <item> Introductory Macroconomics </item>
+     </string-array>
+
+    <string-array name="class12_economic_books_hi">
+        <item> Vyashthi Arthashastra </item>
+        <item> Samashty Arthshastra Ek Parichay </item>
+    </string-array>
+
+     <string-array name="class12_economic_introductorymacroconomics_chapters">
+         <item> Introductorary Macroeconomics - Prelims </item>
+         <item> Unit-1 Introduction </item>
+         <item> Unit-2 National Incom Accounting </item>
+         <item> Unit-3 Money and Banking </item>
+         <item> Unit-4 Income Determination </item>
+         <item> Unit-5 the Government Budget and Economy </item>
+         <item> Unit-6 Open Economy Macroeconomics </item>
+         <item> Unit-7 Data Tables </item>
+         <item> Unit-8 Glossary </item>
+     </string-array>
+     <string-array name="class12_economic_introductorymicroconomics_chapters">
+         <item> Introductorary Microeconomics - Prelims </item>
+         <item> Unit-1 Introduction </item>
+         <item> Unit-2 the Theory of Consumer Behaviours </item>
+         <item> Unit-3 Production and Cost </item>
+         <item> Unit-4 the Theory of Firm Under Perfect Competition </item>
+         <item> Unit-5 Market Equilibrium </item>
+         <item> Unit-6 Non-competitive Market </item>
+     </string-array>
+     <string-array name="class12_economic_samashtyarthshastraekparichay_chapters">
+         <item> Samashty Arthashastra Ek Parichay - Prelims </item>
+         <item> Unit-1 Parichay </item>
+         <item> Unit-2 Rastiriya Aay Ka Lekhankan </item>
+         <item> Unit-3 Mudra Aur Banking </item>
+         <item> Unit-4 Aay Nirdharan </item>
+         <item> Unit-5 Sarkar: Karya Aur Wishay-kshetra </item>
+         <item> Unit-6 Khuli Aarthwayawastha: Smashthi Aarhtshastra </item>
+     </string-array>
+     <string-array name="class12_economic_vyashthiarthashastra_chapters">
+         <item> Vyashthi Arthashastra - Prelims </item>
+         <item> Unit-1 Paricay </item>
+         <item> Unit-2 Upabokta Ke Wyawhar Ka Siddhant </item>
+         <item> Unit-3 Utpadan Aur Lagat </item>
+         <item> Unit-4 Purn Pratispardha Ki Sthiti Me Firm Ka Siddhant </item>
+         <item> Unit-5 Bajar Santulan </item>
+         <item> Unit-6 Pratispardha Rahit Bajar </item>
+     </string-array>
+     <string-array name="class12_english_books">
+         <item> Kaliedoscope </item>
+         <item> Flamingo </item>
+         <item> Vistas </item>
+     </string-array>
+     <string-array name="class12_english_flamingo_chapters">
+         <item> Unit-1 the Last Lession </item>
+         <item> Unit-2 Lost Spring </item>
+         <item> Unit-3 Deep Water </item>
+         <item> Unit-4 the Rattrap </item>
+         <item> Unit-5 Indigo </item>
+         <item> Unit-6 Poets and Pancakes </item>
+         <item> Unit-7 the Interview </item>
+         <item> Unit-8 Going Places </item>
+         <item> Unit-1 My Mother at Sixty-six </item>
+         <item> Unit-2 an Elementry School </item>
+         <item> Unit-3 Keeping Quiet </item>
+         <item> Unit-4 a Thing of Beauty </item>
+         <item> Unit-5 a Roadside Stand </item>
+         <item> Unit-6 Aunt Jennifers Tiger </item>
+     </string-array>
+     <string-array name="class12_english_kaliedoscope_chapters">
+         <item> Kaliedoscope - Prelims </item>
+         <item> Unit-1 I Sell My Dreams </item>
+         <item> Unit-2 Eveline </item>
+         <item> Unit-3 a Wedding in Brownsville </item>
+         <item> Unit-4 Tomorrow </item>
+         <item> Unit-5 One Centimeter </item>
+         <item> All Poem </item>
+         <item> Unit-1 Freedom </item>
+         <item> Unit-2 the Mark on the Wall </item>
+         <item> Unit-3 Film-making </item>
+         <item> Unit-4 Why the Novel Matters </item>
+         <item> Unit-5 the Argumentative Indian </item>
+         <item> Unit-6 One Science Fiction </item>
+         <item> Unit-7 Chandalika </item>
+         <item> Unit-8 Broken Images </item>
+     </string-array>
+     <string-array name="class12_english_vistas_chapters">
+         <item> Vistas - Prelims </item>
+         <item> Unit-1 the Third Level </item>
+         <item> Unit-2 the Tiger King </item>
+         <item> Unit-3 Journey to the End of Earth </item>
+         <item> Unit-4 the Enemy </item>
+         <item> Unit-5 Should Wizard Hit Mommy </item>
+         <item> Unit-6 on the Face of It </item>
+         <item> Unit-7 Evans Tries an O-level </item>
+         <item> Unit-8 Memories of Childhood </item>
+     </string-array>
+     <string-array name="class12_geography_bharatlogaurarthawyawastha_chapters">
+         <item> Bharat Log Aur Arthawyawastha - Prelims </item>
+         <item> Unit-1 Janasankhaya, Vitran, Ghanatwa Aur Sanghatan </item>
+         <item> Unit-2 Prawas Prakar Karan Aur Prinam </item>
+         <item> Unit-3 Manaw Wikas </item>
+         <item> Unit-4 Manaw Bastiya </item>
+         <item> Unit-5 Bhu Sansadha Tatha Krushi </item>
+         <item> Unit-6 Jal Sansadhan </item>
+         <item> Unit-7 Khanij Tatha Urja Sansadhan </item>
+         <item> Unit-8 Nirman Udyog </item>
+         <item> Unit-9 Bharat Ke Sandharbh Me Niyojan Tatha Satat Poshniya Wikas </item>
+         <item> Unit-10 Pariwahan Tatha Sanchar </item>
+         <item> Unit-11 Aantarrashtiya Wyapar </item>
+         <item> Unit-12 Bhaugolic Paripaksh Me Chineet Kuch Mudde Eveam Samasyae </item>
+     </string-array>
+     <string-array name="class12_geography_bhugolmeprayogatmakkarya_chapters">
+         <item> Bhugol Me Pragogatmak Karya - Prelims </item>
+         <item> Unit-1 Aankde, Strot Aur Sankalan </item>
+         <item> Unit-2 Aaankdo Ka Prakraman </item>
+         <item> Unit-3 Aankdo Ka Aalekhi Nirupan </item>
+         <item> Unit-4 Aankdo Ka Prakraman Evam Manchitran Me Computer Ka Upyog </item>
+         <item> Unit-5 Kshetriya Sarvekshan </item>
+         <item> Unit-6 Stanik Suchna Proaudhyogic </item>
+     </string-array>
+     <string-array name="class12_geography_books">
+         <item> Fundamentals of Human Geography </item>
+         <item> Practical Work in Geography 2 </item>
+         <item> Indian People and Economy </item>
+     </string-array>
+
+    <string-array name="class12_geography_books_hi">
+        <item> Manaw Bhugol Ke Mul Seddhant </item>
+        <item> Bhugol Me Prayogatmak Karya </item>
+        <item> Bharat Log Aur Arthawyawastha </item>
+    </string-array>
+     <string-array name="class12_geography_fundamentalsofhumangeography_chapters">
+         <item> Fundamentals of Human Geography - Prelims </item>
+         <item> Unit-1 Human Geography Nature and Scope </item>
+         <item> Unit-2 the World Population Distribution, Density and Growth </item>
+         <item> Unit-3 Population and Composition </item>
+         <item> Unit-4 Human Development </item>
+         <item> Unit-5 Primary Activities </item>
+         <item> Unit-6 Secondary Activities </item>
+         <item> Unit-7 Tertiary and Quaternary Activities </item>
+         <item> Unit-8 Transport and Communication </item>
+         <item> Unit-9 International Trade </item>
+         <item> Unit-10 Human Settlements </item>
+     </string-array>
+     <string-array name="class12_geography_indianpeopleandeconomy_chapters">
+         <item> Indian People and Economy - Prelims </item>
+         <item> Unit-1 Population Distribution, Density, Growth and Composition </item>
+         <item> Unit-2 Migration: Types, Causes and Consequences </item>
+         <item> Unit-3 Human Development </item>
+         <item> Unit-4 Human Settlements </item>
+         <item> Unit-5 Land, Resource and Agriculture </item>
+         <item> Unit-6 Water Resources </item>
+         <item> Unit-7 Mineral and Energy Resources </item>
+         <item> Unit-8 Manufacturing Industries </item>
+         <item> Unit-9 Planning and Sustainable Development in India Context </item>
+         <item> Unit-10 Transpor and Communication </item>
+         <item> Unit-11 International Trade </item>
+         <item> Unit-12 Geographical Preservation on Selected Issues and Problems </item>
+     </string-array>
+     <string-array name="class12_geography_manawbhugolkemulseddhant_chapters">
+         <item> Manaw Bhugol Ke Mul Seddhant - Prelims </item>
+         <item> Unit-1 Manaw Bhugol Evam Wishay Kshetra </item>
+         <item> Unit-2 Vishw Janasankhya Witran: Ghanatwa Aru Wruddhi </item>
+         <item> Unit-3 Janasankhya Sanghatan </item>
+         <item> Unit-4 Manaw Vikas </item>
+         <item> Unit-5 Prathamik Kriyae </item>
+         <item> Unit-6 Dwitiyak Kriyae </item>
+         <item> Unit-7 Trutiyak Aur Chaturtha Kriyakalap </item>
+         <item> Unit-8 Pariwahan Evam Sanchar </item>
+         <item> Unit-9 Aantartashtriya Wyapar </item>
+         <item> Unit-10 Manaw Basti </item>
+     </string-array>
+     <string-array name="class12_geography_practicalworkingeography2_chapters">
+         <item> Practical Work in Geography 2 - Prelims </item>
+         <item> Unit-1 Data: Its Source and Compilation </item>
+         <item> Unit-2 Data Processing </item>
+         <item> Unit-3 Graphical Representation of Data </item>
+         <item> Unit-4 Use of Computer in Data Processing and Mapping </item>
+         <item> Unit-5 Field Surveys </item>
+         <item> Unit-6 Spatial Information Technology </item>
+     </string-array>
+     <string-array name="class12_heritagecrafts_bharatiyahastakalakiparamparae_chapters">
+         <item> Bharatiya Hastkala Ki Paramparae - Prelims </item>
+         <item> Unit-1 Aatit Me Shilp </item>
+         <item> Unit-2 Aaupniweshik Shasan Wa Shilp </item>
+         <item> Unit-3 Mahatma Gandhi Aur Swanirbharata </item>
+         <item> Unit-4 Hathkargha Evam Hastkala Ka Punarutthan </item>
+         <item> Unit-5 Wartaman Me Shilp Samuday </item>
+         <item> Unit-6 Utpad Aur Wipanan </item>
+         <item> Unit-7 Shilp Bajar </item>
+         <item> Unit-8 Paryatan Ke Yug Me Shilp </item>
+         <item> Unit-9 Aabhikalp Tatha Shilp </item>
+     </string-array>
+     <string-array name="class12_heritagecrafts_books">
+         <item> Craft Tradition of India </item>
+     </string-array>
+
+    <string-array name="class12_heritagecrafts_books_hi">
+        <item> Bharatiya Hastakala Ki Paramparae </item>
+    </string-array>
+     <string-array name="class12_heritagecrafts_crafttraditionofindia_chapters">
+         <item> Unit-1 Crafts in the Past </item>
+         <item> Unit-2 Colonial Rule and Crafts </item>
+         <item> Unit-3 Mahatma Gandhi and Self-sufficiency </item>
+         <item> Unit-4 Handloom and Handicrafts Revival </item>
+         <item> Unit-5 the Crafts Community Today </item>
+         <item> Unit-6 Production and Marketing </item>
+         <item> Unit-7 Crafts Bazaars </item>
+         <item> Unit-8 Crafts in the Age of Tourism </item>
+         <item> Unit-9 Design and Development </item>
+     </string-array>
+     <string-array name="class12_hindi_aantra_chapters">
+         <item> Aantra - Prelims </item>
+         <item> Unit-1 Devsena Ka Geet </item>
+         <item> Unit-2 Geet Gane Do Muze </item>
+         <item> Unit-3 Yah Dip Aakela; Maine Dekha Ek Bund </item>
+         <item> Unit-4 Banaras; Disha </item>
+         <item> Unit-5 Satya; Ek Kam </item>
+         <item> Unit-6 Todo; Vasant Aaya </item>
+         <item> Unit-7 Bharat-ram Ka Prem; Pad </item>
+         <item> Unit-8 Malik Muhammad Jayesi </item>
+         <item> Unit-9 Widhyapati </item>
+         <item> Unit-10 Keshwdas </item>
+         <item> Unit-11 Ghananand </item>
+         <item> Unit-12 Ramchandra Shukla </item>
+         <item> Unit-13 Pandit Chandradhar Sharma Guleri </item>
+         <item> Unit-14 Brajmohan Wyas </item>
+         <item> Unit-15 Fanishwarnath-renu </item>
+         <item> Unit-16 Bhishma Sahani </item>
+         <item> Unit-17 Aasgar Wajahat </item>
+         <item> Unit-18 Nirmal Warma </item>
+         <item> Unit-19 Ramwilas Sharma </item>
+         <item> Unit-20 Mamta Kaliya </item>
+         <item> Unit-21 Hajari Prasad Dwiwedi </item>
+     </string-array>
+     <string-array name="class12_hindi_aantral2_chapters">
+         <item> Aantral - Prelims </item>
+         <item> Unit-1 Surdas Ki Zopdi </item>
+         <item> Unit-2 Arohan </item>
+         <item> Unit-3 Biskohar Ki Mati </item>
+         <item> Unit-4 Aapna Malwa Khau Ujadu Sabhyata Me </item>
+     </string-array>
+     <string-array name="class12_hindi_aroh_chapters">
+         <item> Aroh - Prelims </item>
+         <item> Unit-1 Hariwanshray Bachaan </item>
+         <item> Unit-2 Aalok Dhanwa </item>
+         <item> Unit-3 Kuwar Narayan </item>
+         <item> Unit-4 Raghuwir Sahay </item>
+         <item> Unit-5 Gajanan Madhaw Muktibodh </item>
+         <item> Unit-6 Samsher Bahadursing </item>
+         <item> Unit-7 Suryakant Tripathi Nirala </item>
+         <item> Unit-8 Tulsidas </item>
+         <item> Unit-9 Umashankar Joshi </item>
+         <item> Unit-10 Firag Gorakhpur </item>
+         <item> Unit-11 Mahadewi Warma </item>
+         <item> Unit-12 Jitendra Kumar </item>
+         <item> Unit-13 Dharmawir Bharti </item>
+         <item> Unit-14 Fanishwarnath Renu </item>
+         <item> Unit-15 Wishnu Khare </item>
+         <item> Unit-16 Rajyasajjat Jahir </item>
+         <item> Unit-17 Hajariprasad Triwedi </item>
+         <item> Unit-18 Bhimrao Ambedkar </item>
+     </string-array>
+     <string-array name="class12_hindi_books">
+         <item> Aantra </item>
+         <item> Aroh </item>
+         <item> Vitan </item>
+         <item> Aantral 2 </item>
+     </string-array>
+     <string-array name="class12_hindi_vitan_chapters">
+         <item> Vitan - Prelims </item>
+         <item> Unit-1 Silver Wedding </item>
+         <item> Unit-2 Juze </item>
+         <item> Unit-3 Aatit Me Dabe Paw </item>
+         <item> Unit-4 Dayri Ke Panne </item>
+     </string-array>
+     <string-array name="class12_history_bhartiyaitihskekuchvishay1_chapters">
+         <item> Bhratiya Ithihas Ke Kuch Vishay 1 - Prelims </item>
+         <item> Unit-1 Ite, Manake Tatha Aasthiya: Haddappa Sabhyata </item>
+         <item> Unit-2 Raja, Kisan Aur Nagar: Aarambhik Rajya Aur Aarthawyawastha </item>
+         <item> Unit-3 Mahatmagandhi Aur Swanirbharta </item>
+         <item> Unit-4 Hathkargha Evam Hasta Shilp Ka Punaruddhar </item>
+     </string-array>
+     <string-array name="class12_history_bhartiyaitihskekuchvishay2_chapters">
+         <item> Bhratiya Ithihas Ke Kuch Vishay 2 - Prelims </item>
+         <item> Yatriyoke Najariye </item>
+         <item> Bhakti Sufhi Paramparaye </item>
+         <item> Ek Samrajya Ki Rajdhani Vijaynagar </item>
+         <item> Kisan Jamindar Aur Rajya </item>
+         <item> Shasak Aur Etivruti </item>
+     </string-array>
+     <string-array name="class12_history_bhartiyaitihskekuchvishay3_chapters">
+         <item> Bhratiya Ithihas Ke Kuch Vishay 3 - Prelims </item>
+         <item> Upniveshwad Aur Dehat </item>
+         <item> Vidrohi Aur Rajya </item>
+         <item> Aopniveshik Shahar </item>
+         <item> Mahatma Gandhi Aur Rashtriya Andolan </item>
+         <item> Vibhajan Ko Samjana </item>
+         <item> Savidhan Ka Nirman </item>
+     </string-array>
+     <string-array name="class12_history_books">
+         <item> Themes in Indian History 1 </item>
+         <item> Themes in Indian History 2 </item>
+         <item> Themes in Indian History 3 </item>
+     </string-array>
+
+    <string-array name="class12_history_books_hi">
+        <item> Bhartiya Itihas Ke Kuch Vishay 1 </item>
+        <item> Bhartiya Itihas Ke Kuch Vishay 2 </item>
+        <item> Bhartiya Itihas Ke Kuch Vishay 3 </item>
+    </string-array>
+     <string-array name="class12_history_themesinindiahistory1_chapters">
+         <item> Themes in Indian History 1 - Prelims </item>
+         <item> Unit-1 Bricks, Beads and Bones: the Harappan Civilisation </item>
+         <item> Unit-2 Kings, Farmers and Towns: Early State and Economics </item>
+         <item> Unit-3 Kinship, Caste and Class: Early Societies </item>
+         <item> Unit-4 Thinkers, Belifes and Buildings: Cultural Developments </item>
+     </string-array>
+     <string-array name="class12_history_themesinindiahistory2_chapters">
+         <item> Themes in Indian History 2 - Prelims </item>
+         <item> Unit-5 Through the Eyes of Travellers </item>
+         <item> Unit-6 Bhaktisufi Tradition </item>
+         <item> Unit-7 Inperial Capital- Vijaynagara </item>
+         <item> Unit-8 Peasants, Jamindars and States </item>
+         <item> Unit-9 Kings and Cronicals </item>
+     </string-array>
+     <string-array name="class12_history_themesinindiahistory3_chapters">
+         <item> Themes in Indian History 3 - Prelims </item>
+         <item> Unit-10 Colonialism and Country Side </item>
+         <item> Unit-11 Rebel and the Raj </item>
+         <item> Unit-12 Colonial Cities </item>
+         <item> Unit-13 Mahatma Gandhi and Nationalist Movement </item>
+         <item> Unit-14 Understanding Partitions </item>
+         <item> Unit-15 Framing the Constitution </item>
+     </string-array>
+     <string-array name="class12_mathematics_books">
+         <item> Mathematics 1 </item>
+         <item> Mathematics 2 </item>
+    </string-array>
+
+    <string-array name="class12_mathematics_books_hi">
+        <item> Ganit 1 </item>
+        <item> Ganit 2 </item>
+    </string-array>
+     <string-array name="class12_mathematics_ganit1_chapters">
+         <item> Ganit 1 - Prelims </item>
+         <item> Unit-1 Sambandh Evam Falan </item>
+         <item> Unit-2 Pratilom Trikonmitiya Falan </item>
+         <item> Unit-3 Aavuha </item>
+         <item> Unit-4 Sarnik </item>
+         <item> Unit-5 Santatya Tatha Aawkalniyata </item>
+         <item> Unit-6 Aawkalaj Ke Aanuprayog </item>
+         <item> Unit-7 Parishishta 1 - Ganit Me Upappatiya </item>
+         <item> Unit-8 Parishishta 2 - Ganitiya Nidarshan </item>
+         <item> Unit-9 Uttarmala </item>
+     </string-array>
+     <string-array name="class12_mathematics_ganit2_chapters">
+         <item> Ganit 2 - Prelims </item>
+         <item> Unit-1 Samakalan </item>
+         <item> Unit-2 Samakalan Ke Aanuprayou </item>
+         <item> Unit-3 Aawkal Samikaran </item>
+         <item> Unit-4 Sadish Bijganit </item>
+         <item> Unit-5 Triwimiya Jyamiti </item>
+         <item> Unit-6 Raikhik Programan </item>
+         <item> Unit-7 Uttarmala </item>
+     </string-array>
+     <string-array name="class12_mathematics_mathematics1_chapters">
+         <item> Mathematics - 1 - Prelims </item>
+         <item> Unit-1 Relations and Functions </item>
+         <item> Unit-2 Inverse Trigonometric Functions </item>
+         <item> Unit-3 Matrices </item>
+         <item> Unit-4 Determinants </item>
+         <item> Unit-5 Continuity and Differentiability </item>
+         <item> Unit-6 Application of Derivatives </item>
+         <item> Unit-7 Appendices 1 - Proofs in Mathematics </item>
+         <item> Unit-8 Appendices 2 - Mathematical Modeling </item>
+         <item> Unit-9 Answer Sheet </item>
+     </string-array>
+     <string-array name="class12_mathematics_mathematics2_chapters">
+         <item> Mathematics - 2 - Prelims </item>
+         <item> Unit-1 Integrals </item>
+         <item> Unit-2 Applications of Integrals </item>
+         <item> Unit-3 Differential Equations </item>
+         <item> Unit-4 Vector Algebra </item>
+         <item> Unit-5 Three Dimensional Geometry </item>
+         <item> Unit-6 Linear Programming </item>
+         <item> Unit-7 Probability </item>
+         <item> Unit-8 Answer Sheet </item>
+         <item> Unit-9 Supplementary Material </item>
+     </string-array>
+     <string-array name="class12_newagegraphicsdesign_books">
+         <item> New Edge Graphics Design </item>
+     </string-array>
+     <string-array name="class12_newagegraphicsdesign_newagegraphicsesign_chapters">
+         <item> Unit-1 Role of Design in Society </item>
+         <item> Unit-2 Graphic Design Processes </item>
+         <item> Unit-3 Sketching and Drawing </item>
+         <item> Unit-4 Colour </item>
+         <item> Unit-5 Fundamentals of Visual Composition </item>
+         <item> Unit-6 Typography </item>
+         <item> Unit-7 Principles of Layout Design </item>
+         <item> Unit-8 Digital Imaging and Printing </item>
+         <item> Unit-9 Advertising Design </item>
+         <item> Unit-10 Compaign Desing </item>
+         <item> Unit-11 Integrated Methode of Advertising </item>
+         <item> Unit-12 Graphic Design for Iterative Media </item>
+     </string-array>
+     <string-array name="class12_physics_bhautiki1_chapters">
+         <item> Bhautiki-1-prelims </item>
+         <item> Unit-1 Vaidut Aawesh Tatha Kshetra </item>
+         <item> Unit-2 Shir Waidut Vibaw Tatha Dharita </item>
+         <item> Unit-3 Vidhut Dhara </item>
+         <item> Unit-4 Gatiman Aawesh Aur Chumbakatwa </item>
+         <item> Unit-5 Chumbakatwa Evam Drawya </item>
+         <item> Unit-6 Waidut Chumbakiya Tarage </item>
+         <item> Unit-7 Pratyawarti Dhara </item>
+         <item> Unit-8 Waidut Chumbakiya Tarage </item>
+     </string-array>
+     <string-array name="class12_physics_bhautiki2_chapters">
+         <item> Bhautiki-2-prelims </item>
+         <item> Unit-1 Kiran Prakashiki Evam Prakashik Yantra </item>
+         <item> Unit-2 Tanag Prakashiki </item>
+         <item> Unit-3 Vikikaran Tatha Drawya Ki Dwet Prakruti </item>
+         <item> Unit-4 Parmanu </item>
+         <item> Unit-5 Nabhik </item>
+         <item> Unit-6 Aadharchalak Electroniki </item>
+         <item> Unit-7 Uttrmala </item>
+     </string-array>
+     <string-array name="class12_physics_books">
+         <item> Physics - 1 </item>
+         <item> Physics - 2 </item>
+     </string-array>
+
+    <string-array name="class12_physics_books_hi">
+        <item> Bhautiki - 1 </item>
+        <item> Bhautiki - 2 </item>
+    </string-array>
+     <string-array name="class12_physics_physics1_chapters">
+         <item> Physics-1-prelims </item>
+         <item> Unit-1 Electric Charges and Fields </item>
+         <item> Unit-2 Electrostatic Potential and Capacitance </item>
+         <item> Unit-3 Current Electricity </item>
+         <item> Unit-4 Moving Charges and Magnetism </item>
+         <item> Unit-5 Magnetism and Matter </item>
+         <item> Unit-6 Electromagnetic Induction </item>
+         <item> Unit-7 Alternating Current </item>
+         <item> Unit-8 Electromagnetic Waves </item>
+         <item> Unit-9 Answer Sheet Physics 1 </item>
+     </string-array>
+     <string-array name="class12_physics_physics2_chapters">
+         <item> Physics-2-prelims </item>
+         <item> Unit-1 Ray Optics and Optical Instrument </item>
+         <item> Unit-2 Wave Optics </item>
+         <item> Unit-3 Dual Nature of Radiatoion and Matter </item>
+         <item> Unit-4 Atoms </item>
+         <item> Unit-5 Nuclei </item>
+         <item> Unit-6 Semiconductor Electronics </item>
+     </string-array>
+     <string-array name="class12_political_science_books">
+         <item> Contemprary World Politics </item>
+         <item> Political Science 2 </item>
+     </string-array>
+
+    <string-array name="class12_political_science_books_hi">
+        <item> Samkalin Vishw Rajneeti </item>
+        <item> Swatantra Bharat Me Rajneeti 2 </item>
+    </string-array>
+     <string-array name="class12_political_science_contempraryworldpolitics_chapters">
+         <item> Contemporary World Politics - Prelims </item>
+         <item> Unit-1 the Cold War Era </item>
+         <item> Unit-2 the End of Bipolarity </item>
+         <item> Unit-3 Us Hegenomy in World Politics </item>
+         <item> Unit-4 Alternative Centers of Power </item>
+         <item> Unit-5 Comtemprary South Asia </item>
+         <item> Unit-6 International Organisation </item>
+         <item> Unit-7 Security in the Contemprary World </item>
+         <item> Unit-8 Environmental Natural Resorces </item>
+         <item> Unit-9 Globalisation </item>
+     </string-array>
+     <string-array name="class12_political_science_politicalscience2_chapters">
+         <item> Political Science 2 - Prelims </item>
+         <item> Unit-1 Challenges of Nation Building </item>
+         <item> Unit-2 Era of One-party Dominance </item>
+         <item> Unit-3 Politics of Land Development </item>
+         <item> Unit-4 Indias External Relations </item>
+         <item> Unit-5 Challenges and Restortion of Congress System </item>
+         <item> Unit-6 the Crices of Democratic Orders </item>
+         <item> Unit-7 the Rise of Popular Moment </item>
+         <item> Unit-8 Regional Aspirations </item>
+         <item> Unit-9 Recent Development in Indian Politics </item>
+     </string-array>
+     <string-array name="class12_political_science_samkalinvishwrajneeti_chapters">
+         <item> Samkalin Vishwa Rajneeti - Prelims </item>
+         <item> Unit-1 Shityudh Ka Daur </item>
+         <item> Unit-2 Do Druviyata Ka Ant </item>
+         <item> Unit-3 Samkalin Vishwa Me Ameriki Varchaswa </item>
+         <item> Unit-4 Satta Me Vekalpic Kendra </item>
+         <item> Unit-5 Samkalin Dakshin Ashiya </item>
+         <item> Unit-6 Antarashriya Sangthan </item>
+         <item> Unit-7 Samkalin Vishwa Me Surksha </item>
+         <item> Unit-8 Paryavaran Aur Prakrutic Sansadhan </item>
+         <item> Unit-9 Veishwvi Karan </item>
+     </string-array>
+     <string-array name="class12_political_science_swatantrabharatmerajneeti_chapters">
+         <item> Swatantra Bharat Me Rajneeti - Prelims </item>
+         <item> Unit-1 Rashtra Nirman Ki Chunotiya </item>
+         <item> Unit-2 Ek Dal Ke Prabhutva Ka Dor </item>
+         <item> Unit-3 Niyojeet Vikas Ki Rajneeti </item>
+         <item> Unit-4 Bhrat Ke Videsh Sambhadha </item>
+         <item> Unit-5 Kongress Pranali Chunotiya Aur Vikas </item>
+         <item> Unit-6 Loktantric Vyavasta Ka Sankat </item>
+         <item> Unit-7 Jan Andolan Ka Udaya </item>
+         <item> Unit-8 Shetirya Akankshaye </item>
+         <item> Unit-9 Bharatiya Rajeeti Avam Badalav </item>
+     </string-array>
+     <string-array name="class12_psychology_books">
+         <item> Psychology </item>
+     </string-array>
+
+    <string-array name="class12_psychology_books_hi">
+        <item> Manovigyan </item>
+    </string-array>
+     <string-array name="class12_psychology_manovigyan_chapters">
+         <item> Manovigyan - Prelims </item>
+         <item> Unit-1 Manowaigyanik Guno Me Wibhinnatae </item>
+         <item> Unit-2 Aatma Evam Wyaktitwa </item>
+         <item> Unit-3 Jiwan Ki Chunautiyo Ka Samna </item>
+         <item> Unit-4 Manowaigyanik Wikar </item>
+         <item> Unit-5 Chikitsa Upagam </item>
+         <item> Unit-6 Abhiwruddhi Evam Samajik Sadhnya </item>
+         <item> Unit-7 Samajik Prabhaw Evam Samuh Prakram </item>
+         <item> Unit-8 Manowigyan Evam Jiwan </item>
+         <item> Unit-9 Manowaigyanik Kaushalyo Ka Wikas </item>
+     </string-array>
+     <string-array name="class12_psychology_psychology_chapters">
+         <item> Introduction to Psychology - Prelims </item>
+         <item> Unit-1 Variation in Psychological Attribute </item>
+         <item> Unit-2 Self and Personality </item>
+         <item> Unit-3 Meeting Life Challenges </item>
+         <item> Unit-4 Psychological Disorers </item>
+         <item> Unit-5 Therapeutic Approches </item>
+         <item> Unit-6 Attitude and Social Cognition </item>
+         <item> Unit-7 Social Influence and Group Processes </item>
+         <item> Unit-8 Psychology and Life </item>
+         <item> Unit-9 Developing Psychological Skills </item>
+     </string-array>
+     <string-array name="class12_sanskrit_bhaswati_chapters">
+         <item> Bhaswati - Prelims </item>
+         <item> Unit-1 Aanushasanam </item>
+         <item> Unit-2 N Twa Shochitumharsi </item>
+         <item> Unit-3 Maturadhnya Dariyasi </item>
+         <item> Unit-4 Prajanurajjako Nrup </item>
+         <item> Unit-5 Dowarikasya Nishtha </item>
+         <item> Unit-6 Sukti Saurabham </item>
+         <item> Unit-7 Naikenapi Sam Gata Wasumati </item>
+         <item> Unit-8 Haldighati </item>
+         <item> Unit-9 Madalasa </item>
+         <item> Unit-10 Pratiksha </item>
+     </string-array>
+     <string-array name="class12_sanskrit_books">
+         <item> Bhaswati </item>
+         <item> Shashwati </item>
+     </string-array>
+     <string-array name="class12_sanskrit_shashwati_chapters">
+         <item> Shaswati - Prelims </item>
+         <item> Unit-1 Vidhyayamatanash Nat </item>
+         <item> Unit-2 Raghkatssawadah </item>
+         <item> Unit-3 Balkat Kam </item>
+         <item> Unit-4 Kamgarawam </item>
+         <item> Unit-5 Saknashapadashah </item>
+         <item> Unit-6 Suktisudha </item>
+         <item> Unit-7 Vikramasyadayam </item>
+         <item> Unit-8 Bhu-wibhagaha </item>
+         <item> Unit-9 Kaya Wa Sadhyay Dah Wa Patyayam </item>
+         <item> Unit-10 Donbanadhah Shronayarah </item>
+         <item> Unit-11 Udbhijya Parishad </item>
+         <item> Unit-12 Kintoha Kutulta </item>
+     </string-array>
+     <string-array name="class12_sociology_bhartiyasamaj_chapters">
+         <item> Bharatiya Samaj - Prelims </item>
+         <item> Unit-1 Bhartiya Samaj Ek Parichay </item>
+         <item> Unit-2 Bhartiya Samaj Ki Janasankhikiya Sanrachana </item>
+         <item> Unit-3 Samajik Sansthae: Nirantarta Evam Pariwartan </item>
+         <item> Unit-4 Bajar Ek Samajik Sanstha Ke Rup Me </item>
+         <item> Unit-5 Samajik Wishamta Evam Bahishkar Ke Swarup </item>
+         <item> Unit-6 Sanskrutik Wiwidhtao Ki Chunautiya </item>
+         <item> Unit-7 Pariyogna Karoke Liye Suzaw </item>
+     </string-array>
+     <string-array name="class12_sociology_bhartmesamajikpariwartanaurvikas_chapters">
+         <item> Bharat Me Samajik Parivartan Aur Vikas - Prelims </item>
+         <item> Unit-1 Sanrachanatmak Pariwartan </item>
+         <item> Unit-2 Sanskrutik Pariwartan </item>
+         <item> Unit-3 Bhartiya Loktantra Ki Kahaniya </item>
+         <item> Unit-4 Gramin Samaj Me Wikas Evam Pariwartan </item>
+         <item> Unit-5 Aaudyogi Samaj Me Priwartan Evam Wikas </item>
+         <item> Unit-6 Bhumandalikaran Aur Samajik Pariwartan </item>
+         <item> Unit-7 Jansamprak Sadhan Evam Jansanchar </item>
+         <item> Unit-8 Samajik Aandolan </item>
+     </string-array>
+     <string-array name="class12_sociology_books">
+         <item> Indian Society </item>
+         <item> Social Change and Development in India </item>
+    </string-array>
+
+    <string-array name="class12_sociology_books_hi">
+        <item> Bhartiya Samaj </item>
+        <item> Bhart Me Samajik Pariwartan Aur Vikas </item>
+    </string-array>
+     <string-array name="class12_sociology_indiansociety_chapters">
+         <item> Indian Society - Prelims </item>
+         <item> Unit-1 Introducing Indian Society </item>
+         <item> Unit-2 Demographic Structure of Indian Society </item>
+         <item> Unit-3 Social Institution: Continuity and Change </item>
+         <item> Unit-4 the Market as Social Institution </item>
+         <item> Unit-5 Pattern of Social Inequality and Exclusion </item>
+         <item> Unit-6 the Challenges of Cultural Diversity </item>
+         <item> Unit-7 Suggestion for Project Work </item>
+     </string-array>
+     <string-array name="class12_sociology_socialchangeanddevelopmentinindia_chapters">
+         <item> Social Change and Developemnt in Inadia - Prelims </item>
+         <item> Unit-1 Structural Change </item>
+         <item> Unit-2 Cultural Change </item>
+         <item> Unit-3 Story of Indian Democracy </item>
+         <item> Unit-4 Change and Development in Rural Society </item>
+         <item> Unit-5 Change and Development in Industrial Society </item>
+         <item> Unit-6 Globalisation and Social Change </item>
+         <item> Unit-7 Mass, Media and Communication </item>
+         <item> Unit-8 Social Movement </item>
+     </string-array>
+     <string-array name="class12_subjecnames">
+         <item> Mathematics </item>
+         <item> Physics </item>
+         <item> Accountancy </item>
+         <item> Sanskrit </item>
+         <item> Hindi </item>
+         <item> English </item>
+         <item> Biology </item>
+         <item> History </item>
+         <item> Geography </item>
+         <item> Psychology </item>
+         <item> Sociology </item>
+         <item> Chemistry </item>
+         <item> Political Science </item>
+         <item> Economics </item>
+         <item> Business Studies </item>
+         <item> Heritage Crafts </item>
+         <item> New Age Graphics Design </item>
+     </string-array>
+
+    <string-array name="class12_subjecnames_hi">
+        <item> Mathematics </item>
+        <item> Physics </item>
+        <item> Accountancy </item>
+        <item> Sanskrit </item>
+        <item> Hindi </item>
+        <item> English </item>
+        <item> Biology </item>
+        <item> History </item>
+        <item> Geography </item>
+        <item> Psychology </item>
+        <item> Sociology </item>
+        <item> Chemistry </item>
+        <item> Political Science </item>
+        <item> Economics </item>
+        <item> Business Studies </item>
+        <item> Heritage Crafts </item>
+    </string-array>
+     <string-array name="class12_subjects_books">
+         <item> Mathematics 1 </item>
+         <item> Mathematics 2 </item>
+         <item> Physics - 1 </item>
+         <item> Physics - 2 </item>
+         <item> Accountacy 1 </item>
+         <item> Accountacy 2 </item>
+         <item> Bhaswati </item>
+         <item> Shashwati </item>
+         <item> Aantra </item>
+         <item> Aroh </item>
+         <item> Vitan </item>
+         <item> Aantral 2 </item>
+         <item> Kaliedoscope </item>
+         <item> Flamingo </item>
+         <item> Vistas </item>
+         <item> Biology </item>
+         <item> Themes in Indian History 1 </item>
+         <item> Themes in Indian History 2 </item>
+         <item> Themes in Indian History 3 </item>
+         <item> Fundamentals of Human Geography </item>
+         <item> Practical Work in Geography 2 </item>
+         <item> Indian People and Economy </item>
+         <item> Psychology </item>
+         <item> Indian Society </item>
+         <item> Social Change and Development in India </item>
+         <item> Chemisty 1 </item>
+         <item> Chemistry 2 </item>
+         <item> Contemprary World Politics </item>
+         <item> Political Science 2 </item>
+         <item> Introductory Microconomics </item>
+         <item> Introductory Macroconomics </item>
+         <item> Business Studies 1 </item>
+         <item> Business Studies 2 </item>
+         <item> Craft Tradition of India </item>
+         <item> New Edge Graphics Design </item>
+     </string-array>
+
+
+    <string-array name="class12_subjects_books_hi">
+         <item> Ganit 1 </item>
+         <item> Ganit 2 </item>
+         <item> Bhautiki - 1 </item>
+         <item> Bhautiki - 2 </item>
+         <item> Lekhashastra 1 </item>
+         <item> Lekhashastra 2 </item>
+         <item> Bhaswati </item>
+         <item> Shashwati </item>
+         <item> Aantra </item>
+         <item> Aroh </item>
+         <item> Vitan </item>
+         <item> Aantral 2 </item>
+         <item> Kaliedoscope </item>
+         <item> Flamingo </item>
+         <item> Vistas </item>
+         <item> Jeev Vigyan </item>
+         <item> Bhartiya Itihas Ke Kuch Vishay 1 </item>
+         <item> Bhartiya Itihas Ke Kuch Vishay 2 </item>
+         <item> Bhartiya Itihas Ke Kuch Vishay 3 </item>
+         <item> Manaw Bhugol Ke Mul Seddhant </item>
+         <item> Bhugol Me Prayogatmak Karya </item>
+         <item> Bharat Log Aur Arthawyawastha </item>
+         <item> Manovigyan </item>
+         <item> Bhartiya Samaj </item>
+         <item> Bhart Me Samajik Pariwartan Aur Vikas </item>
+         <item> Rasayan Vigyan 1 </item>
+         <item> Rasayan Vigyan 2 </item>
+         <item> Samkalin Vishw Rajneeti </item>
+         <item> Swatantra Bharat Me Rajneeti </item>
+         <item> Vyashthi Arthashastra </item>
+         <item> Samashty Arthshastra Ek Parichay </item>
+         <item> Vyawsay Aadhyayan 1 </item>
+         <item> Vyawsay Aadhyayan 2 </item>
+         <item> Bharatiya Hastakala Ki Paramparae </item>
+     </string-array>
+
+ </resources>

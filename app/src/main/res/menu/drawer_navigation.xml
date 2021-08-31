@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/ncertBooksEnFragment"
+            android:enabled="true"
+            android:title="NCERT English Books" />
+
+        <item
+            android:id="@+id/ncertBooksHiFragment"
+            android:enabled="true"
+            android:title="NCERT Hindi Books" />
+
+        <item
+            android:id="@+id/ncertSolutionsFragment"
+            android:enabled="true"
+            android:title="NCERT Solutions" />
+
+    </group>
+
+    <item android:title="@string/txt_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="@string/menu_send" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_thumb_up_black"
+                android:title="@string/rate_app" />
+        </menu>
+    </item>
+
+</menu>

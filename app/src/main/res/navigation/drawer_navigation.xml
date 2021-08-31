@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_navigation"
+    app:startDestination="@id/ncertBooksEnFragment">
+
+    <fragment
+        android:id="@+id/ncertBooksEnFragment"
+        android:name="com.qourall.ncertclass12booksandsolution.ui.fragment.NcertBooksEnFragment"
+        android:label="NCERT English Books"
+        tools:layout="@layout/fragment_ncert_books_en" >
+        <action
+            android:id="@+id/action_ncertBooksEnFragment_to_inBooksFragment"
+            app:destination="@id/inBooksFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ncertSolutionsFragment"
+        android:name="com.qourall.ncertclass12booksandsolution.ui.fragment.NcertSolutionsFragment"
+        android:label="NCERT SOLUTIONS"
+        tools:layout="@layout/fragment_ncert_solutions" />
+
+    <fragment
+        android:id="@+id/inBooksFragment"
+        android:name="com.qourall.ncertclass12booksandsolution.ui.fragment.InBooksFragment"
+        tools:layout="@layout/fragment_in_books" >
+        <argument
+            android:name="position"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_inBooksFragment_to_indexBookFragment"
+            app:destination="@id/indexBookFragment" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="Books" />
+        <argument
+            android:name="language"
+            app:argType="string"
+            android:defaultValue="English" />
+    </fragment>
+    <fragment
+        android:id="@+id/indexBookFragment"
+        android:name="com.qourall.ncertclass12booksandsolution.ui.fragment.IndexBookFragment"
+        android:label="IndexBookFragment"
+        tools:layout="@layout/fragment_index_book">
+        <argument
+            android:name="position"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="title" />
+        <argument
+            android:name="titleTo"
+            app:argType="string"
+            android:defaultValue="Default" />
+        <argument
+            android:name="language"
+            app:argType="string"
+            android:defaultValue="English" />
+    </fragment>
+    <fragment
+        android:id="@+id/ncertBooksHiFragment"
+        android:name="com.qourall.ncertclass12booksandsolution.ui.fragment.NcertBooksHiFragment"
+        android:label="NCERT Hindi Books"
+        tools:layout="@layout/fragment_ncert_books_hi" >
+        <action
+            android:id="@+id/action_ncertBooksHiFragment_to_inBooksFragment"
+            app:destination="@id/inBooksFragment" />
+    </fragment>
+
+</navigation>
