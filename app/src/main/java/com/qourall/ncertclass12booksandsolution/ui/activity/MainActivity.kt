@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.ncertBooksEnFragment,
+                R.id.ncertBooksHiFragment,
                 R.id.ncertSolutionsFragment
             ), drawerLayout
         )

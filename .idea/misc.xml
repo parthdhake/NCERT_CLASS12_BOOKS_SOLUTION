@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_pdf.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment_ncert_books_en.xml" value="0.35572916666666665" />
       </map>
     </option>

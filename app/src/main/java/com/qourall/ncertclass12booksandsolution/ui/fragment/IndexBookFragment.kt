@@ -10,11 +10,12 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.qourall.ncertclass12booksandsolution.Const
 import com.qourall.ncertclass12booksandsolution.R
 import com.qourall.ncertclass12booksandsolution.ui.activity.MainActivity
-import com.qourall.ncertclass12booksandsolution.ui.activity.PdfActivity
 import com.qourall.ncertclass12booksandsolution.ui.adapters.IndexBooksAdapter
 import com.qourall.ncertclass12booksandsolution.ui.viewModel.IndexViewModel
+import com.rajat.pdfviewer.PdfViewerActivity
 
 class IndexBookFragment : Fragment() {
 
@@ -55,23 +56,20 @@ class IndexBookFragment : Fragment() {
 
     private fun onClickI(position:Int, view : View){
 
-        val intent = Intent(requireContext() , PdfActivity::class.java)
-
-
        if (args.language == "English"){
            var i = 0
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lemh1ps.pdf" , intent)
-                   1 -> intent("lemh101.pdf" , intent)
-                   2 -> intent("lemh102.pdf" , intent)
-                   3 -> intent("lemh103.pdf" , intent)
-                   4 -> intent("lemh104.pdf" , intent)
-                   5 -> intent("lemh105.pdf" , intent)
-                   6 -> intent("lemh106.pdf" , intent)
-                   7 -> intent("lemh1a1.pdf" , intent)
-                   8 -> intent("lemh1a2.pdf" , intent)
-                   9 -> intent("lemh1an.pdf" , intent)
+                   0 -> onChapterClick("lemh1ps.pdf")
+                   1 -> onChapterClick("lemh101.pdf")
+                   2 -> onChapterClick("lemh102.pdf")
+                   3 -> onChapterClick("lemh103.pdf")
+                   4 -> onChapterClick("lemh104.pdf")
+                   5 -> onChapterClick("lemh105.pdf")
+                   6 -> onChapterClick("lemh106.pdf")
+                   7 -> onChapterClick("lemh1a1.pdf")
+                   8 -> onChapterClick("lemh1a2.pdf")
+                   9 -> onChapterClick("lemh1an.pdf")
                }
            }
 
@@ -79,16 +77,16 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lemh2ps.pdf" , intent)
-                   1 -> intent("lemh201.pdf" , intent)
-                   2 -> intent("lemh202.pdf" , intent)
-                   3 -> intent("lemh203.pdf" , intent)
-                   4 -> intent("lemh204.pdf" , intent)
-                   5 -> intent("lemh205.pdf" , intent)
-                   6 -> intent("lemh206.pdf" , intent)
-                   7 -> intent("lemh207.pdf" , intent)
-                   8 -> intent("lemh2an.pdf" , intent)
-                   9 -> intent("lemh2sm.pdf" , intent)
+                   0 -> onChapterClick("lemh2ps.pdf")
+                   1 -> onChapterClick("lemh201.pdf")
+                   2 -> onChapterClick("lemh202.pdf")
+                   3 -> onChapterClick("lemh203.pdf")
+                   4 -> onChapterClick("lemh204.pdf")
+                   5 -> onChapterClick("lemh205.pdf")
+                   6 -> onChapterClick("lemh206.pdf")
+                   7 -> onChapterClick("lemh207.pdf")
+                   8 -> onChapterClick("lemh2an.pdf")
+                   9 -> onChapterClick("lemh2sm.pdf")
                }
            }
 
@@ -96,43 +94,43 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("leph1ps.pdf" , intent)
-                   1 -> intent("leph101.pdf" , intent)
-                   2 -> intent("leph102.pdf" , intent)
-                   3 -> intent("leph103.pdf" , intent)
-                   4 -> intent("leph104.pdf" , intent)
-                   5 -> intent("leph105.pdf" , intent)
-                   6 -> intent("leph106.pdf" , intent)
-                   7 -> intent("leph107.pdf" , intent)
-                   8 -> intent("leph108.pdf" , intent)
-                   9 -> intent("leph1an.pdf" , intent)
+                   0 -> onChapterClick("leph1ps.pdf")
+                   1 -> onChapterClick("leph101.pdf")
+                   2 -> onChapterClick("leph102.pdf")
+                   3 -> onChapterClick("leph103.pdf")
+                   4 -> onChapterClick("leph104.pdf")
+                   5 -> onChapterClick("leph105.pdf")
+                   6 -> onChapterClick("leph106.pdf")
+                   7 -> onChapterClick("leph107.pdf")
+                   8 -> onChapterClick("leph108.pdf")
+                   9 -> onChapterClick("leph1an.pdf")
                }
            }
            i += 1
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("leph2ps.pdf" , intent)
-                   1 -> intent("leph201.pdf" , intent)
-                   2 -> intent("leph202.pdf" , intent)
-                   3 -> intent("leph203.pdf" , intent)
-                   4 -> intent("leph204.pdf" , intent)
-                   5 -> intent("leph205.pdf" , intent)
-                   6 -> intent("leph206.pdf" , intent)
-                   7 -> intent("leph207.pdf" , intent)
-                   8 -> intent("leph208.pdf" , intent)
+                   0 -> onChapterClick("leph2ps.pdf")
+                   1 -> onChapterClick("leph201.pdf")
+                   2 -> onChapterClick("leph202.pdf")
+                   3 -> onChapterClick("leph203.pdf")
+                   4 -> onChapterClick("leph204.pdf")
+                   5 -> onChapterClick("leph205.pdf")
+                   6 -> onChapterClick("leph206.pdf")
+                   7 -> onChapterClick("leph207.pdf")
+                   8 -> onChapterClick("leph208.pdf")
                }
            }
            i += 1
 
                    if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("leac1ps.pdf" , intent)
-                   1 -> intent("leac101.pdf" , intent)
-                   2 -> intent("leac102.pdf" , intent)
-                   3 -> intent("leac103.pdf" , intent)
-                   4 -> intent("leac104.pdf" , intent)
-                   5 -> intent("leac105.pdf" , intent)
+                   0 -> onChapterClick("leac1ps.pdf")
+                   1 -> onChapterClick("leac101.pdf")
+                   2 -> onChapterClick("leac102.pdf")
+                   3 -> onChapterClick("leac103.pdf")
+                   4 -> onChapterClick("leac104.pdf")
+                   5 -> onChapterClick("leac105.pdf")
                }
            }
            i += 1
@@ -140,13 +138,13 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("leac2ps.pdf" , intent)
-                   1 -> intent("leac201.pdf" , intent)
-                   2 -> intent("leac202.pdf" , intent)
-                   3 -> intent("leac203.pdf" , intent)
-                   4 -> intent("leac204.pdf" , intent)
-                   5 -> intent("leac205.pdf" , intent)
-                   6 -> intent("leac206.pdf" , intent)
+                   0 -> onChapterClick("leac2ps.pdf")
+                   1 -> onChapterClick("leac201.pdf")
+                   2 -> onChapterClick("leac202.pdf")
+                   3 -> onChapterClick("leac203.pdf")
+                   4 -> onChapterClick("leac204.pdf")
+                   5 -> onChapterClick("leac205.pdf")
+                   6 -> onChapterClick("leac206.pdf")
                }
            }
            i += 1
@@ -154,93 +152,40 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhsk1ps.pdf" , intent)
-                   1 -> intent("lhsk101.pdf" , intent)
-                   2 -> intent("lhsk102.pdf" , intent)
-                   3 -> intent("lhsk103.pdf" , intent)
-                   4 -> intent("lhsk104.pdf" , intent)
-                   5 -> intent("lhsk105.pdf" , intent)
-                   6 -> intent("lhsk106.pdf" , intent)
-                   7 -> intent("lhsk107.pdf" , intent)
-                   8 -> intent("lhsk108.pdf" , intent)
-                   9 -> intent("lhsk109.pdf" , intent)
-                   10 -> intent("lhsk110.pdf" , intent)
-                   11 -> intent("lhsk111.pdf" , intent)
-                   12 -> intent("lhsk112.pdf" , intent)
+                   0 -> onChapterClick("lhsk1ps.pdf")
+                   1 -> onChapterClick("lhsk101.pdf")
+                   2 -> onChapterClick("lhsk102.pdf")
+                   3 -> onChapterClick("lhsk103.pdf")
+                   4 -> onChapterClick("lhsk104.pdf")
+                   5 -> onChapterClick("lhsk105.pdf")
+                   6 -> onChapterClick("lhsk106.pdf")
+                   7 -> onChapterClick("lhsk107.pdf")
+                   8 -> onChapterClick("lhsk108.pdf")
+                   9 -> onChapterClick("lhsk109.pdf")
+                   10 -> onChapterClick("lhsk110.pdf")
+                   11 -> onChapterClick("lhsk111.pdf")
+                   12 -> onChapterClick("lhsk112.pdf")
                }
            }
            i += 1
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhsk2ps.pdf" , intent)
-                   1 -> intent("lhsk201.pdf" , intent)
-                   2 -> intent("lhsk202.pdf" , intent)
-                   3 -> intent("lhsk203.pdf" , intent)
-                   4 -> intent("lhsk204.pdf" , intent)
-                   5 -> intent("lhsk205.pdf" , intent)
-                   6 -> intent("lhsk206.pdf" , intent)
-                   7 -> intent("lhsk207.pdf" , intent)
-                   8 -> intent("lhsk208.pdf" , intent)
-                   9 -> intent("lhsk209.pdf" , intent)
-                   10 -> intent("lhsk210.pdf" , intent)
-                   11 -> intent("lhsk211.pdf" , intent)
-                   12 -> intent("lhsk212.pdf" , intent)
-                   13 -> intent("lhsk213.pdf" , intent)
-                   14 -> intent("lhsk214.pdf" , intent)
-               }
-           }
-           i += 1
-
-
-           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
-               when(position){
-                   0 -> intent("lhat1ps.pdf" , intent)
-                   1 -> intent("lhat101.pdf" , intent)
-                   2 -> intent("lhat102.pdf" , intent)
-                   3 -> intent("lhat103.pdf" , intent)
-                   4 -> intent("lhat104.pdf" , intent)
-                   5 -> intent("lhat105.pdf" , intent)
-                   6 -> intent("lhat106.pdf" , intent)
-                   7 -> intent("lhat107.pdf" , intent)
-                   8 -> intent("lhat108.pdf" , intent)
-                   9 -> intent("lhat109.pdf" , intent)
-                   10 -> intent("lhat110.pdf" , intent)
-                   11 -> intent("lhat111.pdf" , intent)
-                   12 -> intent("lhat112.pdf" , intent)
-                   13 -> intent("lhat113.pdf" , intent)
-                   14 -> intent("lhat114.pdf" , intent)
-                   15 -> intent("lhat115.pdf" , intent)
-                   16 -> intent("lhat116.pdf" , intent)
-                   17 -> intent("lhat117.pdf" , intent)
-                   18 -> intent("lhat118.pdf" , intent)
-                   19 -> intent("lhat119.pdf" , intent)
-                   20 -> intent("lhat120.pdf" , intent)
-                   21 -> intent("lhat121.pdf" , intent)            }
-           }
-           i += 1
-
-           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
-               when(position){
-                   0 -> intent("lhar1ps.pdf" , intent)
-                   1 -> intent("lhar101.pdf" , intent)
-                   2 -> intent("lhar102.pdf" , intent)
-                   3 -> intent("lhar103.pdf" , intent)
-                   4 -> intent("lhar104.pdf" , intent)
-                   5 -> intent("lhar105.pdf" , intent)
-                   6 -> intent("lhar106.pdf" , intent)
-                   7 -> intent("lhar107.pdf" , intent)
-                   8 -> intent("lhar108.pdf" , intent)
-                   9 -> intent("lhar109.pdf" , intent)
-                   10 -> intent("lhar110.pdf" , intent)
-                   11 -> intent("lhar111.pdf" , intent)
-                   12 -> intent("lhar112.pdf" , intent)
-                   13 -> intent("lhar113.pdf" , intent)
-                   14 -> intent("lhar114.pdf" , intent)
-                   15 -> intent("lhar115.pdf" , intent)
-                   16 -> intent("lhar116.pdf" , intent)
-                   17 -> intent("lhar117.pdf" , intent)
-                   18 -> intent("lhar118.pdf" , intent)
+                   0 -> onChapterClick("lhsk2ps.pdf")
+                   1 -> onChapterClick("lhsk201.pdf")
+                   2 -> onChapterClick("lhsk202.pdf")
+                   3 -> onChapterClick("lhsk203.pdf")
+                   4 -> onChapterClick("lhsk204.pdf")
+                   5 -> onChapterClick("lhsk205.pdf")
+                   6 -> onChapterClick("lhsk206.pdf")
+                   7 -> onChapterClick("lhsk207.pdf")
+                   8 -> onChapterClick("lhsk208.pdf")
+                   9 -> onChapterClick("lhsk209.pdf")
+                   10 -> onChapterClick("lhsk210.pdf")
+                   11 -> onChapterClick("lhsk211.pdf")
+                   12 -> onChapterClick("lhsk212.pdf")
+                   13 -> onChapterClick("lhsk213.pdf")
+                   14 -> onChapterClick("lhsk214.pdf")
                }
            }
            i += 1
@@ -248,11 +193,52 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhvt1ps.pdf" , intent)
-                   1 -> intent("lhvt101.pdf" , intent)
-                   2 -> intent("lhvt102.pdf" , intent)
-                   3 -> intent("lhvt103.pdf" , intent)
-                   4 -> intent("lhvt104.pdf" , intent)
+                   0 -> onChapterClick("lhat1ps.pdf")
+                   1 -> onChapterClick("lhat101.pdf")
+                   2 -> onChapterClick("lhat102.pdf")
+                   3 -> onChapterClick("lhat103.pdf")
+                   4 -> onChapterClick("lhat104.pdf")
+                   5 -> onChapterClick("lhat105.pdf")
+                   6 -> onChapterClick("lhat106.pdf")
+                   7 -> onChapterClick("lhat107.pdf")
+                   8 -> onChapterClick("lhat108.pdf")
+                   9 -> onChapterClick("lhat109.pdf")
+                   10 -> onChapterClick("lhat110.pdf")
+                   11 -> onChapterClick("lhat111.pdf")
+                   12 -> onChapterClick("lhat112.pdf")
+                   13 -> onChapterClick("lhat113.pdf")
+                   14 -> onChapterClick("lhat114.pdf")
+                   15 -> onChapterClick("lhat115.pdf")
+                   16 -> onChapterClick("lhat116.pdf")
+                   17 -> onChapterClick("lhat117.pdf")
+                   18 -> onChapterClick("lhat118.pdf")
+                   19 -> onChapterClick("lhat119.pdf")
+                   20 -> onChapterClick("lhat120.pdf")
+                   21 -> onChapterClick("lhat121.pdf")            }
+           }
+           i += 1
+
+           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
+               when(position){
+                   0 -> onChapterClick("lhar1ps.pdf")
+                   1 -> onChapterClick("lhar101.pdf")
+                   2 -> onChapterClick("lhar102.pdf")
+                   3 -> onChapterClick("lhar103.pdf")
+                   4 -> onChapterClick("lhar104.pdf")
+                   5 -> onChapterClick("lhar105.pdf")
+                   6 -> onChapterClick("lhar106.pdf")
+                   7 -> onChapterClick("lhar107.pdf")
+                   8 -> onChapterClick("lhar108.pdf")
+                   9 -> onChapterClick("lhar109.pdf")
+                   10 -> onChapterClick("lhar110.pdf")
+                   11 -> onChapterClick("lhar111.pdf")
+                   12 -> onChapterClick("lhar112.pdf")
+                   13 -> onChapterClick("lhar113.pdf")
+                   14 -> onChapterClick("lhar114.pdf")
+                   15 -> onChapterClick("lhar115.pdf")
+                   16 -> onChapterClick("lhar116.pdf")
+                   17 -> onChapterClick("lhar117.pdf")
+                   18 -> onChapterClick("lhar118.pdf")
                }
            }
            i += 1
@@ -260,11 +246,23 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhan1ps.pdf" , intent)
-                   1 -> intent("lhan101.pdf" , intent)
-                   2 -> intent("lhan102.pdf" , intent)
-                   3 -> intent("lhan103.pdf" , intent)
-                   4 -> intent("lhan104.pdf" , intent)
+                   0 -> onChapterClick("lhvt1ps.pdf")
+                   1 -> onChapterClick("lhvt101.pdf")
+                   2 -> onChapterClick("lhvt102.pdf")
+                   3 -> onChapterClick("lhvt103.pdf")
+                   4 -> onChapterClick("lhvt104.pdf")
+               }
+           }
+           i += 1
+
+
+           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
+               when(position){
+                   0 -> onChapterClick("lhan1ps.pdf")
+                   1 -> onChapterClick("lhan101.pdf")
+                   2 -> onChapterClick("lhan102.pdf")
+                   3 -> onChapterClick("lhan103.pdf")
+                   4 -> onChapterClick("lhan104.pdf")
                }
            }
            i += 1
@@ -272,23 +270,23 @@ class IndexBookFragment : Fragment() {
            //English
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lebo1ps.pdf" , intent)
-                   1 -> intent("lebo101.pdf" , intent)
-                   2 -> intent("lebo102.pdf" , intent)
-                   3 -> intent("lebo103.pdf" , intent)
-                   4 -> intent("lebo104.pdf" , intent)
-                   5 -> intent("lebo105.pdf" , intent)
-                   6 -> intent("lebo106.pdf" , intent)
-                   7 -> intent("lebo107.pdf" , intent)
-                   8 -> intent("lebo108.pdf" , intent)
-                   9 -> intent("lebo109.pdf" , intent)
-                   10 -> intent("lebo110.pdf" , intent)
-                   11 -> intent("lebo111.pdf" , intent)
-                   12 -> intent("lebo112.pdf" , intent)
-                   13 -> intent("lebo113.pdf" , intent)
-                   14 -> intent("lebo114.pdf" , intent)
-                   15 -> intent("lebo115.pdf" , intent)
-                   16 -> intent("lebo116.pdf" , intent)
+                   0 -> onChapterClick("lebo1ps.pdf")
+                   1 -> onChapterClick("lebo101.pdf")
+                   2 -> onChapterClick("lebo102.pdf")
+                   3 -> onChapterClick("lebo103.pdf")
+                   4 -> onChapterClick("lebo104.pdf")
+                   5 -> onChapterClick("lebo105.pdf")
+                   6 -> onChapterClick("lebo106.pdf")
+                   7 -> onChapterClick("lebo107.pdf")
+                   8 -> onChapterClick("lebo108.pdf")
+                   9 -> onChapterClick("lebo109.pdf")
+                   10 -> onChapterClick("lebo110.pdf")
+                   11 -> onChapterClick("lebo111.pdf")
+                   12 -> onChapterClick("lebo112.pdf")
+                   13 -> onChapterClick("lebo113.pdf")
+                   14 -> onChapterClick("lebo114.pdf")
+                   15 -> onChapterClick("lebo115.pdf")
+                   16 -> onChapterClick("lebo116.pdf")
                }
            }
            i += 1
@@ -296,11 +294,11 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lehs1ps.pdf" , intent)
-                   1 -> intent("lehs101.pdf" , intent)
-                   2 -> intent("lehs102.pdf" , intent)
-                   3 -> intent("lehs103.pdf" , intent)
-                   4 -> intent("lehs104.pdf" , intent)
+                   0 -> onChapterClick("lehs1ps.pdf")
+                   1 -> onChapterClick("lehs101.pdf")
+                   2 -> onChapterClick("lehs102.pdf")
+                   3 -> onChapterClick("lehs103.pdf")
+                   4 -> onChapterClick("lehs104.pdf")
 
                }
            }
@@ -308,12 +306,12 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lehs2ps.pdf" , intent)
-                   1 -> intent("lehs201.pdf" , intent)
-                   2 -> intent("lehs202.pdf" , intent)
-                   3 -> intent("lehs203.pdf" , intent)
-                   4 -> intent("lehs204.pdf" , intent)
-                   5 -> intent("lehs205.pdf" , intent)
+                   0 -> onChapterClick("lehs2ps.pdf")
+                   1 -> onChapterClick("lehs201.pdf")
+                   2 -> onChapterClick("lehs202.pdf")
+                   3 -> onChapterClick("lehs203.pdf")
+                   4 -> onChapterClick("lehs204.pdf")
+                   5 -> onChapterClick("lehs205.pdf")
 
                }
            }
@@ -321,13 +319,13 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lehs3ps.pdf" , intent)
-                   1 -> intent("lehs301.pdf" , intent)
-                   2 -> intent("lehs302.pdf" , intent)
-                   3 -> intent("lehs303.pdf" , intent)
-                   4 -> intent("lehs304.pdf" , intent)
-                   5 -> intent("lehs305.pdf" , intent)
-                   6 -> intent("lehs306.pdf" , intent)
+                   0 -> onChapterClick("lehs3ps.pdf")
+                   1 -> onChapterClick("lehs301.pdf")
+                   2 -> onChapterClick("lehs302.pdf")
+                   3 -> onChapterClick("lehs303.pdf")
+                   4 -> onChapterClick("lehs304.pdf")
+                   5 -> onChapterClick("lehs305.pdf")
+                   6 -> onChapterClick("lehs306.pdf")
 
                }
            }
@@ -342,126 +340,72 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhmh1ps.pdf" , intent)
-                   1 -> intent("lhmh101.pdf" , intent)
-                   2 -> intent("lhmh102.pdf" , intent)
-                   3 -> intent("lhmh103.pdf" , intent)
-                   4 -> intent("lhmh104.pdf" , intent)
-                   5 -> intent("lhmh105.pdf" , intent)
-                   6 -> intent("lhmh106.pdf" , intent)
-                   7 -> intent("lhmh1a1.pdf" , intent)
-                   8 -> intent("lhmh1a2.pdf" , intent)
-                   9 -> intent("lhmh1an.pdf" , intent)
+                   0 -> onChapterClick("lhmh1ps.pdf")
+                   1 -> onChapterClick("lhmh101.pdf")
+                   2 -> onChapterClick("lhmh102.pdf")
+                   3 -> onChapterClick("lhmh103.pdf")
+                   4 -> onChapterClick("lhmh104.pdf")
+                   5 -> onChapterClick("lhmh105.pdf")
+                   6 -> onChapterClick("lhmh106.pdf")
+                   7 -> onChapterClick("lhmh1a1.pdf")
+                   8 -> onChapterClick("lhmh1a2.pdf")
+                   9 -> onChapterClick("lhmh1an.pdf")
                }
            }
            i += 1
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhmh2ps.pdf" , intent)
-                   1 -> intent("lhmh201.pdf" , intent)
-                   2 -> intent("lhmh202.pdf" , intent)
-                   3 -> intent("lhmh203.pdf" , intent)
-                   4 -> intent("lhmh204.pdf" , intent)
-                   5 -> intent("lhmh205.pdf" , intent)
-                   6 -> intent("lhmh206.pdf" , intent)
-                   7 -> intent("lhmh2an.pdf" , intent)
+                   0 -> onChapterClick("lhmh2ps.pdf")
+                   1 -> onChapterClick("lhmh201.pdf")
+                   2 -> onChapterClick("lhmh202.pdf")
+                   3 -> onChapterClick("lhmh203.pdf")
+                   4 -> onChapterClick("lhmh204.pdf")
+                   5 -> onChapterClick("lhmh205.pdf")
+                   6 -> onChapterClick("lhmh206.pdf")
+                   7 -> onChapterClick("lhmh2an.pdf")
                }
            }
            i += 1
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhph1ps.pdf" , intent)
-                   1 -> intent("lhph101.pdf" , intent)
-                   2 -> intent("lhph102.pdf" , intent)
-                   3 -> intent("lhph103.pdf" , intent)
-                   4 -> intent("lhph104.pdf" , intent)
-                   5 -> intent("lhph105.pdf" , intent)
-                   6 -> intent("lhph106.pdf" , intent)
-                   7 -> intent("lhph107.pdf" , intent)
-                   8 -> intent("lhph108.pdf" , intent)
-                   9 -> intent("lhph1an.pdf" , intent)
-               }
-           }
-           i += 1
-
-           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
-               when(position){
-                   0 -> intent("lhph2ps.pdf" , intent)
-                   1 -> intent("lhph202.pdf" , intent)
-                   2 -> intent("lhph203.pdf" , intent)
-                   3 -> intent("lhph204.pdf" , intent)
-                   4 -> intent("lhph205.pdf" , intent)
-                   5 -> intent("lhph206.pdf" , intent)
-                   6 -> intent("lhph207.pdf" , intent)
-                   7 -> intent("lhph2an.pdf" , intent)
-               }
-           }
-
-           i += 1
-
-           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
-               when(position){
-                   0 -> intent("lhac1ps.pdf" , intent)
-                   1 -> intent("lhac101.pdf" , intent)
-                   2 -> intent("lhac102.pdf" , intent)
-                   3 -> intent("lhac103.pdf" , intent)
-                   4 -> intent("lhac104.pdf" , intent)
-                   5 -> intent("lhac105.pdf" , intent)
-               }
-           }
-           i += 1
-
-
-           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
-               when(position){
-                   0 -> intent("lhac2ps.pdf" , intent)
-                   1 -> intent("lhac201.pdf" , intent)
-                   2 -> intent("lhac202.pdf" , intent)
-                   3 -> intent("lhac203.pdf" , intent)
-                   4 -> intent("lhac204.pdf" , intent)
-                   5 -> intent("lhac205.pdf" , intent)
-                   6 -> intent("lhac206.pdf" , intent)
+                   0 -> onChapterClick("lhph1ps.pdf")
+                   1 -> onChapterClick("lhph101.pdf")
+                   2 -> onChapterClick("lhph102.pdf")
+                   3 -> onChapterClick("lhph103.pdf")
+                   4 -> onChapterClick("lhph104.pdf")
+                   5 -> onChapterClick("lhph105.pdf")
+                   6 -> onChapterClick("lhph106.pdf")
+                   7 -> onChapterClick("lhph107.pdf")
+                   8 -> onChapterClick("lhph108.pdf")
+                   9 -> onChapterClick("lhph1an.pdf")
                }
            }
            i += 1
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhsk1ps.pdf" , intent)
-                   1 -> intent("lhsk101.pdf" , intent)
-                   2 -> intent("lhsk102.pdf" , intent)
-                   3 -> intent("lhsk103.pdf" , intent)
-                   4 -> intent("lhsk104.pdf" , intent)
-                   5 -> intent("lhsk105.pdf" , intent)
-                   6 -> intent("lhsk106.pdf" , intent)
-                   7 -> intent("lhsk107.pdf" , intent)
-                   8 -> intent("lhsk108.pdf" , intent)
-                   9 -> intent("lhsk109.pdf" , intent)
-                   10 -> intent("lhsk110.pdf" , intent)
-                   11 -> intent("lhsk111.pdf" , intent)
-                   12 -> intent("lhsk112.pdf" , intent)
+                   0 -> onChapterClick("lhph2ps.pdf")
+                   1 -> onChapterClick("lhph202.pdf")
+                   2 -> onChapterClick("lhph203.pdf")
+                   3 -> onChapterClick("lhph204.pdf")
+                   4 -> onChapterClick("lhph205.pdf")
+                   5 -> onChapterClick("lhph206.pdf")
+                   6 -> onChapterClick("lhph207.pdf")
+                   7 -> onChapterClick("lhph2an.pdf")
                }
            }
+
            i += 1
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhsk2ps.pdf" , intent)
-                   1 -> intent("lhsk201.pdf" , intent)
-                   2 -> intent("lhsk202.pdf" , intent)
-                   3 -> intent("lhsk203.pdf" , intent)
-                   4 -> intent("lhsk204.pdf" , intent)
-                   5 -> intent("lhsk205.pdf" , intent)
-                   6 -> intent("lhsk206.pdf" , intent)
-                   7 -> intent("lhsk207.pdf" , intent)
-                   8 -> intent("lhsk208.pdf" , intent)
-                   9 -> intent("lhsk209.pdf" , intent)
-                   10 -> intent("lhsk210.pdf" , intent)
-                   11 -> intent("lhsk211.pdf" , intent)
-                   12 -> intent("lhsk212.pdf" , intent)
-                   13 -> intent("lhsk213.pdf" , intent)
-                   14 -> intent("lhsk214.pdf" , intent)
+                   0 -> onChapterClick("lhac1ps.pdf")
+                   1 -> onChapterClick("lhac101.pdf")
+                   2 -> onChapterClick("lhac102.pdf")
+                   3 -> onChapterClick("lhac103.pdf")
+                   4 -> onChapterClick("lhac104.pdf")
+                   5 -> onChapterClick("lhac105.pdf")
                }
            }
            i += 1
@@ -469,52 +413,53 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhat1ps.pdf" , intent)
-                   1 -> intent("lhat101.pdf" , intent)
-                   2 -> intent("lhat102.pdf" , intent)
-                   3 -> intent("lhat103.pdf" , intent)
-                   4 -> intent("lhat104.pdf" , intent)
-                   5 -> intent("lhat105.pdf" , intent)
-                   6 -> intent("lhat106.pdf" , intent)
-                   7 -> intent("lhat107.pdf" , intent)
-                   8 -> intent("lhat108.pdf" , intent)
-                   9 -> intent("lhat109.pdf" , intent)
-                   10 -> intent("lhat110.pdf" , intent)
-                   11 -> intent("lhat111.pdf" , intent)
-                   12 -> intent("lhat112.pdf" , intent)
-                   13 -> intent("lhat113.pdf" , intent)
-                   14 -> intent("lhat114.pdf" , intent)
-                   15 -> intent("lhat115.pdf" , intent)
-                   16 -> intent("lhat116.pdf" , intent)
-                   17 -> intent("lhat117.pdf" , intent)
-                   18 -> intent("lhat118.pdf" , intent)
-                   19 -> intent("lhat119.pdf" , intent)
-                   20 -> intent("lhat120.pdf" , intent)
-                   21 -> intent("lhat121.pdf" , intent)            }
+                   0 -> onChapterClick("lhac2ps.pdf")
+                   1 -> onChapterClick("lhac201.pdf")
+                   2 -> onChapterClick("lhac202.pdf")
+                   3 -> onChapterClick("lhac203.pdf")
+                   4 -> onChapterClick("lhac204.pdf")
+                   5 -> onChapterClick("lhac205.pdf")
+                   6 -> onChapterClick("lhac206.pdf")
+               }
            }
            i += 1
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhar1ps.pdf" , intent)
-                   1 -> intent("lhar101.pdf" , intent)
-                   2 -> intent("lhar102.pdf" , intent)
-                   3 -> intent("lhar103.pdf" , intent)
-                   4 -> intent("lhar104.pdf" , intent)
-                   5 -> intent("lhar105.pdf" , intent)
-                   6 -> intent("lhar106.pdf" , intent)
-                   7 -> intent("lhar107.pdf" , intent)
-                   8 -> intent("lhar108.pdf" , intent)
-                   9 -> intent("lhar109.pdf" , intent)
-                   10 -> intent("lhar110.pdf" , intent)
-                   11 -> intent("lhar111.pdf" , intent)
-                   12 -> intent("lhar112.pdf" , intent)
-                   13 -> intent("lhar113.pdf" , intent)
-                   14 -> intent("lhar114.pdf" , intent)
-                   15 -> intent("lhar115.pdf" , intent)
-                   16 -> intent("lhar116.pdf" , intent)
-                   17 -> intent("lhar117.pdf" , intent)
-                   18 -> intent("lhar118.pdf" , intent)
+                   0 -> onChapterClick("lhsk1ps.pdf")
+                   1 -> onChapterClick("lhsk101.pdf")
+                   2 -> onChapterClick("lhsk102.pdf")
+                   3 -> onChapterClick("lhsk103.pdf")
+                   4 -> onChapterClick("lhsk104.pdf")
+                   5 -> onChapterClick("lhsk105.pdf")
+                   6 -> onChapterClick("lhsk106.pdf")
+                   7 -> onChapterClick("lhsk107.pdf")
+                   8 -> onChapterClick("lhsk108.pdf")
+                   9 -> onChapterClick("lhsk109.pdf")
+                   10 -> onChapterClick("lhsk110.pdf")
+                   11 -> onChapterClick("lhsk111.pdf")
+                   12 -> onChapterClick("lhsk112.pdf")
+               }
+           }
+           i += 1
+
+           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
+               when(position){
+                   0 -> onChapterClick("lhsk2ps.pdf")
+                   1 -> onChapterClick("lhsk201.pdf")
+                   2 -> onChapterClick("lhsk202.pdf")
+                   3 -> onChapterClick("lhsk203.pdf")
+                   4 -> onChapterClick("lhsk204.pdf")
+                   5 -> onChapterClick("lhsk205.pdf")
+                   6 -> onChapterClick("lhsk206.pdf")
+                   7 -> onChapterClick("lhsk207.pdf")
+                   8 -> onChapterClick("lhsk208.pdf")
+                   9 -> onChapterClick("lhsk209.pdf")
+                   10 -> onChapterClick("lhsk210.pdf")
+                   11 -> onChapterClick("lhsk211.pdf")
+                   12 -> onChapterClick("lhsk212.pdf")
+                   13 -> onChapterClick("lhsk213.pdf")
+                   14 -> onChapterClick("lhsk214.pdf")
                }
            }
            i += 1
@@ -522,11 +467,52 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhvt1ps.pdf" , intent)
-                   1 -> intent("lhvt101.pdf" , intent)
-                   2 -> intent("lhvt102.pdf" , intent)
-                   3 -> intent("lhvt103.pdf" , intent)
-                   4 -> intent("lhvt104.pdf" , intent)
+                   0 -> onChapterClick("lhat1ps.pdf")
+                   1 -> onChapterClick("lhat101.pdf")
+                   2 -> onChapterClick("lhat102.pdf")
+                   3 -> onChapterClick("lhat103.pdf")
+                   4 -> onChapterClick("lhat104.pdf")
+                   5 -> onChapterClick("lhat105.pdf")
+                   6 -> onChapterClick("lhat106.pdf")
+                   7 -> onChapterClick("lhat107.pdf")
+                   8 -> onChapterClick("lhat108.pdf")
+                   9 -> onChapterClick("lhat109.pdf")
+                   10 -> onChapterClick("lhat110.pdf")
+                   11 -> onChapterClick("lhat111.pdf")
+                   12 -> onChapterClick("lhat112.pdf")
+                   13 -> onChapterClick("lhat113.pdf")
+                   14 -> onChapterClick("lhat114.pdf")
+                   15 -> onChapterClick("lhat115.pdf")
+                   16 -> onChapterClick("lhat116.pdf")
+                   17 -> onChapterClick("lhat117.pdf")
+                   18 -> onChapterClick("lhat118.pdf")
+                   19 -> onChapterClick("lhat119.pdf")
+                   20 -> onChapterClick("lhat120.pdf")
+                   21 -> onChapterClick("lhat121.pdf")            }
+           }
+           i += 1
+
+           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
+               when(position){
+                   0 -> onChapterClick("lhar1ps.pdf")
+                   1 -> onChapterClick("lhar101.pdf")
+                   2 -> onChapterClick("lhar102.pdf")
+                   3 -> onChapterClick("lhar103.pdf")
+                   4 -> onChapterClick("lhar104.pdf")
+                   5 -> onChapterClick("lhar105.pdf")
+                   6 -> onChapterClick("lhar106.pdf")
+                   7 -> onChapterClick("lhar107.pdf")
+                   8 -> onChapterClick("lhar108.pdf")
+                   9 -> onChapterClick("lhar109.pdf")
+                   10 -> onChapterClick("lhar110.pdf")
+                   11 -> onChapterClick("lhar111.pdf")
+                   12 -> onChapterClick("lhar112.pdf")
+                   13 -> onChapterClick("lhar113.pdf")
+                   14 -> onChapterClick("lhar114.pdf")
+                   15 -> onChapterClick("lhar115.pdf")
+                   16 -> onChapterClick("lhar116.pdf")
+                   17 -> onChapterClick("lhar117.pdf")
+                   18 -> onChapterClick("lhar118.pdf")
                }
            }
            i += 1
@@ -534,58 +520,57 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhan1ps.pdf" , intent)
-                   1 -> intent("lhan101.pdf" , intent)
-                   2 -> intent("lhan102.pdf" , intent)
-                   3 -> intent("lhan103.pdf" , intent)
-                   4 -> intent("lhan104.pdf" , intent)
+                   0 -> onChapterClick("lhvt1ps.pdf")
+                   1 -> onChapterClick("lhvt101.pdf")
+                   2 -> onChapterClick("lhvt102.pdf")
+                   3 -> onChapterClick("lhvt103.pdf")
+                   4 -> onChapterClick("lhvt104.pdf")
+               }
+           }
+           i += 1
+
+
+           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
+               when(position){
+                   0 -> onChapterClick("lhan1ps.pdf")
+                   1 -> onChapterClick("lhan101.pdf")
+                   2 -> onChapterClick("lhan102.pdf")
+                   3 -> onChapterClick("lhan103.pdf")
+                   4 -> onChapterClick("lhan104.pdf")
                }
            }
            i += 1
 //English
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhbo1ps.pdf" , intent)
-                   1 -> intent("lhbo101.pdf" , intent)
-                   2 -> intent("lhbo102.pdf" , intent)
-                   3 -> intent("lhbo103.pdf" , intent)
-                   4 -> intent("lhbo104.pdf" , intent)
-                   5 -> intent("lhbo105.pdf" , intent)
-                   6 -> intent("lhbo106.pdf" , intent)
-                   7 -> intent("lhbo107.pdf" , intent)
-                   8 -> intent("lhbo108.pdf" , intent)
-                   9 -> intent("lhbo109.pdf" , intent)
-                   10 -> intent("lhbo110.pdf" , intent)
-                   11 -> intent("lhbo111.pdf" , intent)
-                   12 -> intent("lhbo112.pdf" , intent)
-                   13 -> intent("lhbo113.pdf" , intent)
-                   14 -> intent("lhbo114.pdf" , intent)
-                   15 -> intent("lhbo115.pdf" , intent)
-                   16 -> intent("lhbo116.pdf" , intent)
+                   0 -> onChapterClick("lhbo1ps.pdf")
+                   1 -> onChapterClick("lhbo101.pdf")
+                   2 -> onChapterClick("lhbo102.pdf")
+                   3 -> onChapterClick("lhbo103.pdf")
+                   4 -> onChapterClick("lhbo104.pdf")
+                   5 -> onChapterClick("lhbo105.pdf")
+                   6 -> onChapterClick("lhbo106.pdf")
+                   7 -> onChapterClick("lhbo107.pdf")
+                   8 -> onChapterClick("lhbo108.pdf")
+                   9 -> onChapterClick("lhbo109.pdf")
+                   10 -> onChapterClick("lhbo110.pdf")
+                   11 -> onChapterClick("lhbo111.pdf")
+                   12 -> onChapterClick("lhbo112.pdf")
+                   13 -> onChapterClick("lhbo113.pdf")
+                   14 -> onChapterClick("lhbo114.pdf")
+                   15 -> onChapterClick("lhbo115.pdf")
+                   16 -> onChapterClick("lhbo116.pdf")
                }
            }
            i += 1
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhhs1ps.pdf" , intent)
-                   1 -> intent("lhhs101.pdf" , intent)
-                   2 -> intent("lhhs102.pdf" , intent)
-                   3 -> intent("lhhs103.pdf" , intent)
-                   4 -> intent("lhhs104.pdf" , intent)
-
-               }
-           }
-           i += 1
-
-           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
-               when(position){
-                   0 -> intent("lhhs2ps.pdf" , intent)
-                   1 -> intent("lhhs201.pdf" , intent)
-                   2 -> intent("lhhs202.pdf" , intent)
-                   3 -> intent("lhhs203.pdf" , intent)
-                   4 -> intent("lhhs204.pdf" , intent)
-                   5 -> intent("lhhs205.pdf" , intent)
+                   0 -> onChapterClick("lhhs1ps.pdf")
+                   1 -> onChapterClick("lhhs101.pdf")
+                   2 -> onChapterClick("lhhs102.pdf")
+                   3 -> onChapterClick("lhhs103.pdf")
+                   4 -> onChapterClick("lhhs104.pdf")
 
                }
            }
@@ -593,13 +578,26 @@ class IndexBookFragment : Fragment() {
 
            if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
                when(position){
-                   0 -> intent("lhhs3ps.pdf" , intent)
-                   1 -> intent("lhhs301.pdf" , intent)
-                   2 -> intent("lhhs302.pdf" , intent)
-                   3 -> intent("lhhs303.pdf" , intent)
-                   4 -> intent("lhhs304.pdf" , intent)
-                   5 -> intent("lhhs305.pdf" , intent)
-                   6 -> intent("lhhs306.pdf" , intent)
+                   0 -> onChapterClick("lhhs2ps.pdf")
+                   1 -> onChapterClick("lhhs201.pdf")
+                   2 -> onChapterClick("lhhs202.pdf")
+                   3 -> onChapterClick("lhhs203.pdf")
+                   4 -> onChapterClick("lhhs204.pdf")
+                   5 -> onChapterClick("lhhs205.pdf")
+
+               }
+           }
+           i += 1
+
+           if (args.titleTo == resources.getStringArray(R.array.class12_subjects_books)[i]){
+               when(position){
+                   0 -> onChapterClick("lhhs3ps.pdf")
+                   1 -> onChapterClick("lhhs301.pdf")
+                   2 -> onChapterClick("lhhs302.pdf")
+                   3 -> onChapterClick("lhhs303.pdf")
+                   4 -> onChapterClick("lhhs304.pdf")
+                   5 -> onChapterClick("lhhs305.pdf")
+                   6 -> onChapterClick("lhhs306.pdf")
 
                }
            }
@@ -610,12 +608,20 @@ class IndexBookFragment : Fragment() {
 
        }
 
-        startActivity(intent)
-
     }
 
-    private fun intent(pdf : String, intent: Intent){
-        intent.putExtra("URL" , pdf)
+    private fun onChapterClick(pdf : String){
+        startActivity(
+
+            // Use 'launchPdfFromPath' if you want to use assets file (enable "fromAssets" flag) / internal directory
+
+            PdfViewerActivity.launchPdfFromUrl(           //PdfViewerActivity.Companion.launchPdfFromUrl(..   :: incase of JAVA
+                context,
+                Const.BASE_URL + pdf,                                // PDF URL in String format
+                args.titleTo,                        // PDF Name/Title in String format
+                ""                 // If nothing specific, Put "" it will save to Downloads
+            )
+        )
     }
 
 }
